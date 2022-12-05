@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:textColor="@color/white"
+    android:background="#00BCD4"
+    android:gravity="center"
+    android:text="Update"
+    android:textSize="30sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></TextView>
+    <TextView
+android:layout_marginTop="20dp"
+        android:textColor="#0F0F0F"
+        android:id="@+id/loai_update_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên loại thu" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/input_loai"
+        android:hint="nhập tên loại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:id="@+id/edit"
+        android:text="Cập Nhật"
+        app:cornerRadius="30dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#00BCD4"
+        android:layout_height="60dp"></com.google.android.material.button.MaterialButton>
+</LinearLayout>

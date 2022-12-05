@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/list_radius"
+    android:layout_width="match_parent"
+    android:layout_height="220dp">
+<LinearLayout
+
+    android:backgroundTint="#03A9F4"
+    android:background="@drawable/headbar_radius"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/ten"
+        android:textSize="20dp"
+        android:text="ten khoan thu chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <ImageView
+        android:id="@+id/edit_khoan"
+android:paddingLeft="100dp"
+        android:layout_gravity="center|right"
+        android:src="@drawable/edit_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+    <ImageView
+        android:id="@+id/del_khoan"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center"
+        android:src="@drawable/del_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ImageView>
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+    android:layout_marginLeft="10dp"
+
+    android:textSize="20dp"
+    android:text="id:"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/id_khoan"
+        android:textSize="20dp"
+        android:text="id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_thuchi"
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+            android:text="ngày thu:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/ngay_khoan"
+            android:textSize="20dp"
+            android:text="2022-1-1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_loai"
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+            android:text="loại thu :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/loai_khoan"
+            android:textSize="20dp"
+            android:text="loại thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+            android:text="số tiền:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/sotien_khoan"
+            android:textSize="20dp"
+            android:text="200"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+            android:text="nội dung :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/noidung_khoan"
+            android:textSize="20dp"
+            android:text="cũng đc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+
+            android:textSize="20dp"
+            android:text="họ tên :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/hoten_khoan"
+            android:textSize="20dp"
+            android:text="vinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
